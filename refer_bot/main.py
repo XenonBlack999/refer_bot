@@ -4,7 +4,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 import sqlite3, random
 import text_loader, time
 
-BOT_TOKEN = "8464808383:AAHYgU0s4MrrRwBm0InNXRHg9GhLrsG7XnM"
+BOT_TOKEN = "8142912628:AAElW_L5Ffs0Cuj-JMoo7dDYY8xj6HFJnPU"
 
 def make_new_code(user: str):
 	conn = sqlite3.connect("user.db")
@@ -163,4 +163,5 @@ def main() -> None:
 
 
 if __name__ == "__main__":
+
     main()
